@@ -1,3 +1,6 @@
+score sans optimisation : 89
+
+Optimisation
 <IfModule mod_expires.c>
   ExpiresActive on
   # Perhaps better to whitelist expires rules? Perhaps.
