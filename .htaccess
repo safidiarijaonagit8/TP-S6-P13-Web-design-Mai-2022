@@ -1,0 +1,44 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/rechauffement-climatique-?.*-([_a-z0-9]*).html$  pages/Choix.php?idcategorie=$1 [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule rechauffement-climatique.html$  index.php [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/?.*-([_a-z0-9]*)$  pages/Contenu.php?idcontenu=$1 [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/admin.html$  pages/AccueilAdmin.php [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/admin-liste-article-([_a-z0-9]*).html$  pages/listeContenuAdmin.php?idcategorie=$1 [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/admin-ajout-article-([_a-z0-9]*).html$  pages/formajoutcontenu.php?idcategorie=$1 [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/admin-?.*-([_a-z0-9]*).html$  pages/CrudContenu.php?idcontenu=$1 [L]
+
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/ajout-categorie.html$  pages/formajoutcategorie.php [L]
+
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/modifier-categorie-([_a-z0-9]*).html$  pages/formupdatecategorie.php?idcategorie=$1 [L]
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule pages/article-?.*-([_a-z0-9]*).html$  pages/Contenu.php?idcontenu=$1 [L]
+
+
+

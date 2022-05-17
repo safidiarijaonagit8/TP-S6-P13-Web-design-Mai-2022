@@ -1,0 +1,3 @@
+<p>
+Le réchauffement climatique est le constat d’une augmentation de la température terrestre moyenne sur de longues périodes. On parle aussi de changement climatique ou de dérèglements climatiques car on note des changements importants dans les phénomènes climatiques : plus de canicules, ou inversement plus de précipitations, fréquence des tempêtes ou des ouragans plus élevée, etc. Il s’agit d’étudier et d’anticiper les variations de température pour l’ensemble du globe et sur des temps longs (étude du climat à grande échelle) et non la variabilité des températures à l’échelle de quelques jours ou sur une saison (prévisions météorologiques).
+</p>
